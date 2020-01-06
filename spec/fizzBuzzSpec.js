@@ -13,4 +13,7 @@ describe('Testing FizzBuzz', function(){
   it("It returns Fizz when passed 3", function(){
     expect(fizzBuzz.play(3)).toEqual('Fizz');
   });
+  it("It returns Fizz when passed 6", function(){
+    expect(fizzBuzz.play(6)).toEqual('Fizz');
+  });
 });
