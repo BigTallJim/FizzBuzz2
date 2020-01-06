@@ -10,4 +10,7 @@ describe('Testing FizzBuzz', function(){
   it("It returns 2 when passed 2", function(){
     expect(fizzBuzz.play(2)).toEqual(2);
   });
+  it("It returns Fizz when passed 3", function(){
+    expect(fizzBuzz.play(3)).toEqual('Fizz');
+  });
 });
